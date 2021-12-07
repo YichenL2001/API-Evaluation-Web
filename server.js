@@ -144,5 +144,5 @@ app.get("*", (req, res) => {
 /*************************************************/
 // Express server listening...
 app.listen(process.env.PORT || 5000, () => {
-  log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+  log(`Listening on port ${port}...`);
 });
