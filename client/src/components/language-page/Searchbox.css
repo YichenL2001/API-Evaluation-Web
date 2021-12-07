@@ -1,0 +1,22 @@
+.searchBox {
+  border: solid 1px grey;
+  margin: 4px;
+  padding: 4px;
+}
+
+#cancel-btn-search {
+  position: relative;
+  left: 10px;
+}
+.searchbox-lib-img {
+  width: 130px;
+  max-height: 80px;
+  border-radius: 5px;
+}
+
+#searchbox-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}

@@ -1,0 +1,47 @@
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+.content {
+  display: flex;
+  gap: 10px;
+  background-image: url("lefthome.jpeg");
+  background-size: fit;
+}
+.leftHome {
+  float: left;
+  width: 75%;
+}
+
+.rightHome {
+  float: left;
+  width: 25%;
+  height: 100vh;
+  background-image: url("righthome.webp");
+  background-size: cover;
+}
+
+.demo {
+  background-color: rgba(255, 255, 255, 0.87);
+  margin: 10px;
+  height: 100px;
+}
+
+#logo-home {
+  width: 150px;
+  height: 200px;
+}
+
+#images-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.logo-right {
+  position: relative;
+  left: 110px;
+}
+#home-ball {
+  font-size: xxx-large;
+}

@@ -1,0 +1,69 @@
+body {
+  font-family: Arial;
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  gap: 10px;
+}
+.leftLang {
+  float: left;
+  width: 75%;
+}
+.rightLang {
+  float: left;
+  width: 25%;
+  min-height: 100vh;
+  background-image: url("righthome.webp");
+  background-size: cover;
+}
+#arrowIcon {
+  font-size: 22px;
+  position: relative;
+  top: -32px;
+  left: 185px;
+  color: #b08f26;
+}
+.imgWrapper {
+  width: 250px;
+  height: 100px;
+}
+.imgWrapper img {
+  width: auto;
+  max-width: 250px;
+  height: 100%;
+}
+.demolang {
+  background-color: white;
+  margin: 10px;
+  max-height: 160px;
+  min-height: 120px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  background-image: linear-gradient(white 93%, lightgrey 100%);
+  position: relative;
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.plang {
+  font-size: medium;
+  width: 400px;
+}
+.vertical {
+  height: 100px;
+  border-left: 2px solid grey;
+}
+
+#name-star {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}

@@ -1,0 +1,71 @@
+.review {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #e6ecf0;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.comment {
+  margin: 0px;
+  display: inline-block;
+  width: 80%;
+  word-wrap: break-word;
+}
+
+.otherComments {
+  width: 100%;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5%;
+  border-style: solid;
+  border-color: #e6ecf0;
+  word-wrap: break-word;
+}
+
+.replyForm {
+  width: 100%;
+  display: block;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  height: 15%;
+  width: 100%;
+  font-size: small;
+}
+
+#commentForm {
+  width: 100%;
+  display: block;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 100%;
+}
+
+.commentButton {
+  margin-bottom: 10px;
+}
+
+#review_comment {
+  font-size: large;
+}
+
+#line-separator {
+  width: 800px;
+  border-bottom: black 1px dashed;
+}
+.review_lst {
+  text-decoration: none;
+  color: rgb(23, 107, 23);
+}
+.review_cross {
+  background: none;
+  border: none;
+  font-size: small;
+  color: rgb(165, 100, 56);
+  position: relative;
+  left: 5px;
+}

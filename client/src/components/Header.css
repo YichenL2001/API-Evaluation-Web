@@ -1,0 +1,14 @@
+.header {
+  padding: 70px;
+  text-align: center;
+  background-image: url("header.png");
+  background-size: fit;
+  color: white;
+  font-weight: bold;
+}
+#logout_btn {
+  color: black;
+  position: absolute;
+  right: 10px;
+  top: 150px;
+}

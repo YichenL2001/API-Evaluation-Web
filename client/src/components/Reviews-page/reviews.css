@@ -1,0 +1,38 @@
+.App {
+  background-color: #c5e1b3;
+  text-align: left;
+  min-height: 100vh;
+}
+.ApiBody {
+  padding-left: 10%;
+  padding-top: 3%;
+  padding-right: 10%;
+}
+.ApiT {
+  font-size: xx-large;
+}
+#api-name {
+  text-decoration: none;
+  font-size: xxx-large;
+}
+
+#review_heart {
+  color: maroon;
+  position: relative;
+  left: 2px;
+}
+
+#review_desc {
+  font-size: x-large;
+}
+#desc-review {
+  text-decoration: none;
+  color: rgb(174, 133, 58);
+}
+
+#non-exist {
+  font-size: xx-large;
+  position: relative;
+  left: 400px;
+  top: 200px;
+}

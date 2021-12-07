@@ -1,0 +1,46 @@
+.popup_signup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-input {
+  background-color: transparent;
+}
+
+.signup-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  border: black 1px solid;
+}
+
+.signup-btn {
+  border-radius: 7px;
+  border: solid black 0.5px;
+  background-color: #c5e1b3;
+}
+#signup-div {
+  position: absolute;
+  top: 100px;
+}
+#btn-div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.signup-message-success {
+  color: green;
+}
+.signup-message-failure {
+  color: red;
+}

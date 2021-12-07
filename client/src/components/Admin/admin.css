@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    height: 100vh;
+}
+.admin div {
+    height: 100%;
+}
+.leftbar{
+    background-color: #c5e1b3;
+    width: 20%;
+    display: inline-block;
+    position:fixed;
+}
+
+ul {
+    list-style: none;
+}
+
+.leftbar li {
+    padding-top: 30%;
+    font-size: x-large;
+    color: black;
+    display: block;
+}
+
+.leftbar li:hover {
+    color: black;
+}
+
+.right {
+    padding-left: 25%;
+    display: inline-block;
+    width: 75%;
+}
+
+.right li {
+    font-size: large;
+    display: block;
+    padding: 10px;
+}
+
+.right button {
+    margin-left: 10px;
+}
