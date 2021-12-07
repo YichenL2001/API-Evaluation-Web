@@ -143,6 +143,6 @@ app.get("*", (req, res) => {
 
 /*************************************************/
 // Express server listening...
-app.listen(process.env.PORT || 5000, () => {
-  log(`Listening on port ${port}...`);
-});
+const PORT = process.env.PORT || 5000;
+express()
+  .listen(PORT, () => console.log(`Listening on ${ PORT }`));
