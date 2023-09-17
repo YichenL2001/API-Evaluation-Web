@@ -267,10 +267,3 @@ Link: "/api/users/libs/:id/:lib_id”
 Parameter:  id is userid, lib_id is library id
 Result: once a user unfavorite a library, this library will be deleted from the user’s fav_lib list
 
-## Development Team 33
-
-| Name         | UTROid   | Git Name(s)     |
-| ------------ | -------- | --------------- |
-| Xinyu Yao    | yaoxiny3 | MY2333          |
-| Yi chen liu  | liuyi104 | KKKK123454321   |
-| Jiaming Yang | yangj295 | Jiaming-Yang-20 |
